@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  typeOfApp = 'first-app-ngModule';
+  title = 'first-app-ngModule';
 
   constructor(){
     console.log('constructor');
@@ -19,6 +19,6 @@ export class AppComponent {
   }
 
   changeTitle(){
-    this.typeOfApp='still a standalone'
+    this.title='still a ngModule'
   }
 }
